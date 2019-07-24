@@ -1,4 +1,4 @@
-# wrike-test
+# Wrike-test
 Wrike test assignment
 
 Test case scenario:
@@ -15,13 +15,13 @@ Test case scenario:
 
 Stack of technologies for implementation:
 
-Platform: java8;
-Build and run: maven;
-Test framework: junit4;
-UI test: selenium 3 (without wrappers);
-Pattern: pageObject (test -> steps -> pages);
-Reporting: allure plugin;
-Selector: xpath (should be short and stable);
+1. Platform: java8;
+2. Build and run: maven;
+3. Test framework: junit4;
+4. UI test: selenium 3 (without wrappers);
+5. Pattern: pageObject (test -> steps -> pages);
+6. Reporting: allure plugin;
+7. Selector: xpath (should be short and stable);
 
 **How to create a html report using Allure?**
 1. run «mvn clean test» command;
